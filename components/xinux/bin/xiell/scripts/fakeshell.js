@@ -75,7 +75,7 @@ function read_cmd(event){
         msg.innerHTML = "Rebooting system...";
 
         setTimeout(() => {
-            window.location.replace("/components/xinux/boot/bootloader");
+            window.location.replace("/old.site/components/xinux/boot/bootloader");
         }, 1500);
         
     } else {
